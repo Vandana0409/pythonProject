@@ -1,0 +1,21 @@
+https://github.com/Vandana0409/Social-networking-sites.git
+import matplotlib.pyplot as plt
+years = [2004, 2008, 2012, 2016, 2020]
+facebook_users = [2004, 2008, 2012, 2016, 2020]
+twitter_users = [2006, 2010, 2014, 2018, 2022]
+instagram_users = [2010, 2014, 2018, 2020, 2022]
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(years, 3.07M, marker='o', label='Facebook')
+plt.plot(years, 368M, marker='o', label='Twitter')
+plt.plot(years, 2B, marker='o', label='Instagram')
+
+plt.title('Social Networking Site Usage Over Time')
+plt.xlabel('2022')
+plt.ylabel('Number of Users (5.04B)')
+plt.xticks(12)
+plt.grid(True)
+plt.legend()
+
+plt.show()
